@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store 24 Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="shortcut icon" href="store24.png" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="home">
+        <div class="logo">
+            <img src="24.png" alt="">
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#Categories">Categories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="fonts">
+            <a href="cart.html"><i class='bx bx-cart'></i></a>
+            <a href="user.html"><i class='bx bx-user'></i></a>
+        </div>
+        <div class="search">
+            <label for="search"><i class='bx bx-search'  onclick="searchshow()" ></i></a></label>
+            <input type="search" name="search" id="search" placeholder="Search Product...">
+        </div>
+    </nav>
+    <header class="top">
+        <div class="img">
+            <img src="topshoes.png" alt="">
+        </div>
+        <div class="button">
+            <div class="promo-banner">
+                <span>Get the latest kicks + <strong>20% OFF!</strong></span>
+            </div>
+            <div class="btn">
+                <a href="shop.html" id="none-line"><button type="button">Shop now <i class='bx bx-right-arrow-alt' id="arrow-animation"></i></button></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="football-advert1">
+        <div class="img">
+            <img src="realmadridshirt.png" alt="">
+        </div>
+        <div class="button">
+            <div class="promo-banner2">
+                <span>Purchase any football Jersey for <s>R1299</s> <strong>R1199</strong></span><br><br>
+                <span><strong>+ Free R100 Food voucher </strong>for every Purchase</span>
+            </div>
+            <div class="btn">
+                <a href="shop-jersey.html" id="none-line"><button type="button">Shop now <i class='bx bx-right-arrow-alt' id="arrow-animation"></i></button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Here are my products with prices-->
+    <section class="product-container">
+        <h2>Popular Kicks</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="Airforce1(white).png" alt="Product 1">
+                <h3>Airforce 1 '07</h3>
+                <p class="price">R1699.99</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-item">
+                <img src="uptempo96.png" alt="Product 1">
+                <h3>Nike Air More Uptempo '96</h3>
+                <p class="price">R2499</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-item">
+                <img src="sbdunk.png" alt="Product 1">
+                <h3>Nike Dunk Low Retro</h3>
+                <p class="price">R1999</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+            <div class="product-item">
+                <img src="timberland.png" alt="Product 1">
+                <h3>Timberland Premium</h3>
+                <p class="price">R3499</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+        </div>
+        <div class="btn-2">
+            <a href="shop.html" id="more"><button type="button" id="more-button">Shop Footware <i class='bx bx-right-arrow-alt' id="arrow-animation"></i></button></a>  
+        </div>
+    </section>
+    <section class="product-container">
+        <h2>Shop Jerseys</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="realmadridshirt.png" alt="Product 1">
+                <h3>Real Madrid 24/25 Home</h3>
+                <p class="price">R1199</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div> 
+            <div class="product-item">
+                <img src="manchasterhomeshirt.png" alt="Product 1">
+                <h3>Manchester City 24/25 Home</h3>
+                <p class="price">R1199</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div> 
+            <div class="product-item">
+                <img src="bayerhomeshirt.png" alt="Product 1">
+                <h3>Bayer Laverkusen 24/25 Home</h3>
+                <p class="price">R1199</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div> 
+            <div class="product-item">
+                <img src="liverpoolhomeshirt.png" alt="Product 1">
+                <h3>Liverpool 24/25 Home</h3>
+                <p class="price">R1199</p>
+                <button class="add-to-cart">Add to Bag</button>
+            </div>
+        </div> 
+        <div class="btn-2">
+            <a href="shop-jersey.html" id="more"><button type="button" id="more-button">Shop Jerseys <i class='bx bx-right-arrow-alt' id="arrow-animation"></i></button></a>  
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="all-content">
+
+        <div class="top-footer" method="post">    
+            <form action="#home" id="form">
+            <div class="form">
+                <span id="sign">Shop Dash Newsletter</span>
+                <input type="email" name="email-news" id="email-news" placeholder="Enter you email adress" required>
+                <button type="submit" onclick="displayMessage()">Sign Up</button>
+            </div>
+            </form> 
+        </div>
+        
+        <div class="line"></div>
+
+        <div class="content-footer">
+            <div class="account"><br><br>
+                <span id="sub-head">Account</span><br><br>
+                <a href="login.html" id="login">Login into your account</a><br>
+                <a href="orders.html">Orders</a><br>
+                <a href="refund.html">Returns & Exchange</a>
+            </div>
+            <div class="client"><br><br>
+                <span id="sub-head">Client</span><br><br>
+                <a href="help">Help Center</a><br>
+                <a href="faq.htl">FAQ</a><br>
+                <a href="payment">Payment Options</a>
+            </div>
+            <div class="company"><br><br>
+                <span id="sub-head">
+                    Company
+                </span><br><br>
+                <a href="contact.html">Contact</a><br>
+                <a href="about.html">About us</a><br>
+                <a href="privacy">Privacy Policy</a>
+            </div>
+            <div class="socials"><br><br>
+                <span id="sub-head">Follow Us</span><br><br>
+                <a href=""><i class='bx bxl-facebook-circle' id="facebook"></i></a>
+                <a href=""><i class='bx bxl-instagram' id="instagram"></i></a>
+            </div>
+
+            <div class="application"><br><br>
+                <span id="sub-head" class="hd2">Get the Store 24 app</span><br><br>
+
+                <div class="sub-apps">
+
+                <a href="playstore....">
+                    <div class="app-icon">
+                        <i class='bx bxl-play-store'></i>
+                            <div class="text-app">
+                                <p id="text-small">Download on <br>
+                                    <span id="text-big">Playstore</span>
+                                </p>
+                            </div>
+                    </div>
+                </a><br>
+
+                <a href="applestore...">
+                    <div class="app-icon">
+                        <i class='bx bxl-apple'></i>
+                            <div class="text-app">
+                                <p id="text-small">Download on <br>
+                                    <span id="text-big">Playstore</span>
+                                </p>                       
+                            </div>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+        <p id="below">&copy; 2024 Store 24. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script>
+        function searchshow() {
+            var searchInput = document.getElementById("search");
+            if (searchInput.style.display === "none" || searchInput.style.display === "") {
+                searchInput.style.display = "block";
+            } else {
+                searchInput.style.display = "none";
+            }
+        }
+        function displayMessage() {
+            alert('massage me');
+            window.location.hash = "shop-kicks.html";
+            
+        }
+    </script>
+</body>
+</html>
